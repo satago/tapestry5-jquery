@@ -2,9 +2,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.got5</groupId>
+	<groupId>net.satago</groupId>
 	<artifactId>tapestry5-jquery</artifactId>
-	<version>4.1.2-SNAPSHOT</version>
+	<version>4.1.2.0-SATAGO</version>
 	<packaging>jar</packaging>
 	<name>Tapestry 5 JQuery Library</name>
 	<description>Tapestry Components Library</description>
@@ -139,9 +139,9 @@
 		      <version>1.6.3</version>
 		      <extensions>true</extensions>
 		      <configuration>
-		        <serverId>ossrh</serverId>
-		        <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-		        <autoReleaseAfterClose>true</autoReleaseAfterClose>
+		        <serverId>satago</serverId>
+		        <nexusUrl>https://nexus.satago.net/repository/maven-local-libs-release/</nexusUrl>
+		        <autoReleaseAfterClose>false</autoReleaseAfterClose>
 		      </configuration>
 	    	</plugin>
             <plugin>
